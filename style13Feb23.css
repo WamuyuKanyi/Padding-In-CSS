@@ -1,0 +1,22 @@
+/* CSS BOX MODEL
+This model has three properies- Padding, Border, Margin */
+/* Padding- the distance you have between your content you have in your element and the edge */
+/* Border- goes around element*/
+/*Margin- Distance between the edges of the screen or some other element */
+
+h1{
+ background-color: red;
+ padding: top 30px;
+ padding-bottom: 60px;
+ padding-right: 25px;
+ padding-left: 25px;
+}
+
+p{
+ /* padding shortcut
+   */
+   /* padding: 50px; - exact same padding all around */
+ background-color: blue;
+ /* padding:30px 60px ;- padding top bottom */
+ /* padding: 30px 20px 50px 10px; -padding from top to right to bottom to left*/
+}
